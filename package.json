@@ -1,0 +1,41 @@
+{
+  "name": "spine-postgres",
+  "version": "1.0.0",
+  "description": "Postgres adapter for Spine models running in NodeJS",
+  "main": "spine-postgres.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/iced --bare --map --runtime node -o ./ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextorigin/spine-postgres.git"
+  },
+  "keywords": [
+    "spine",
+    "spinejs",
+    "postgres",
+    "postgresql",
+    "model",
+    "adapter",
+    "orm",
+    "sql",
+    "mvc"
+  ],
+  "author": "doublerebel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nextorigin/spine-postgres/issues"
+  },
+  "homepage": "https://github.com/nextorigin/spine-postgres#readme",
+  "dependencies": {
+    "errify": "^1.0.0",
+    "iced-runtime": "^1.0.3",
+    "sequelize": "^4.10.2",
+    "spine": "^1.6.2",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "iced-coffee-script": "^108.0.11"
+  }
+}
