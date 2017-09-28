@@ -31,6 +31,8 @@
   "dependencies": {
     "errify": "^1.0.0",
     "iced-runtime": "^1.0.3",
+    "pg": "^7.3.0",
+    "pg-hstore": "^2.3.2",
     "sequelize": "^4.10.2",
     "spine": "^1.6.2",
     "uuid": "^3.1.0"
