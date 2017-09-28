@@ -1,6 +1,6 @@
 {
   "name": "spine-postgres",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postgres adapter for Spine models running in NodeJS",
   "main": "spine-postgres.js",
   "scripts": {
